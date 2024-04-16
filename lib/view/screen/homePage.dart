@@ -1,6 +1,9 @@
 import 'package:carousel_slider/carousel_slider.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:move_app/utils/movie_utils.dart';
+import 'package:move_app/utils/route_utils.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -15,14 +18,27 @@ class _HomePageState extends State<HomePage> {
     Size size = MediaQuery.sizeOf(context);
     return Scaffold(
       appBar: AppBar(
-        centerTitle: true,
+        backgroundColor: const Color.fromRGBO(7, 4, 32, 1),
+        foregroundColor: Colors.white,
         title: const Text("Home Page"),
+        actions: [
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: IconButton(
+              onPressed: () {
+                Navigator.of(context).pushNamed(
+                  MyRoutes.bookmyshow_page,
+                );
+              },
+              icon: const Icon(CupertinoIcons.tickets_fill),
+            ),
+          ),
+        ],
       ),
-      backgroundColor: Color.fromRGBO(7, 4, 32, 1),
+      backgroundColor: const Color.fromRGBO(7, 4, 32, 1),
       body: Padding(
         padding: const EdgeInsets.all(10),
         child: SingleChildScrollView(
-          physics: BouncingScrollPhysics(),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -31,7 +47,7 @@ class _HomePageState extends State<HomePage> {
                   ...poster
                       .map(
                         (e) => Container(
-                          margin: EdgeInsets.all(10),
+                          margin: const EdgeInsets.all(10),
                           height: size.height * 0.4,
                           decoration: BoxDecoration(
                             borderRadius:
@@ -39,14 +55,13 @@ class _HomePageState extends State<HomePage> {
                             boxShadow: const [
                               BoxShadow(
                                 color: Colors.grey,
-                                offset: Offset(3, 3),
-                                blurRadius: 15,
-                                blurStyle: BlurStyle.solid,
+                                offset: Offset(5, 5),
+                                blurRadius: 5,
                               ),
                             ],
                             image: DecorationImage(
                               image: NetworkImage(e),
-                              fit: BoxFit.fill,
+                              fit: BoxFit.cover,
                             ),
                           ),
                         ),
@@ -60,12 +75,12 @@ class _HomePageState extends State<HomePage> {
                   aspectRatio: 16 / 9,
                   autoPlayCurve: Curves.fastOutSlowIn,
                   enableInfiniteScroll: true,
-                  autoPlayAnimationDuration: Duration(milliseconds: 800),
+                  autoPlayAnimationDuration: const Duration(milliseconds: 800),
                   viewportFraction: 0.8,
                 ),
               ),
               Text(
-                "Catagories",
+                "ComingSoon",
                 style: TextStyle(
                     fontSize: 20,
                     color: Colors.white,
@@ -73,57 +88,93 @@ class _HomePageState extends State<HomePage> {
               ),
               SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
-                child: Row(children: [
-                  ...List.generate(
-                    allCategories.length,
-                    (e) => Container(
-                      alignment: Alignment.center,
-                      margin: EdgeInsets.all(4),
-                      padding: EdgeInsets.all(5),
-                      height: size.height * 0.05,
-                      width: size.width * 0.3,
-                      decoration: BoxDecoration(
-                          color: Colors.blue,
-                          borderRadius: BorderRadius.circular(10)),
-                      child: Text(
-                        allCategories[e],
-                        style: const TextStyle(
-                          color: Colors.white,
-                          fontSize: 16,
-                        ),
-                      ),
-                    ),
-                  ),
-                ]),
-              ),
-              ...allMovies
-                  .map(
-                    (e) => Row(
-                      children: [
-                        Expanded(
-                          child: GestureDetector(
-                            onTap: () {
-                              Navigator.of(context)
-                                  .pushNamed("details_page", arguments: e);
-                            },
-                            child: Container(
+                child: Row(
+                  children: [
+                    ...comingSoon
+                        .map((e) => Container(
                               margin: EdgeInsets.all(5),
-                              height: size.height * 0.2,
-                              width: size.width * 0.9,
+                              height: size.height * 0.15,
+                              width: size.width * 0.3,
                               decoration: BoxDecoration(
-                                color: Colors.red,
+                                borderRadius: BorderRadius.all(
+                                  Radius.circular(10),
+                                ),
+                                color: Colors.white,
                                 image: DecorationImage(
-                                  image: NetworkImage(e['Poster']),
+                                  image: NetworkImage(e),
                                   fit: BoxFit.cover,
                                 ),
                               ),
-                            ),
+                            ))
+                        .toList(),
+                  ],
+                ),
+              ),
+              Container(
+                height: size.height,
+                width: size.width,
+                child: GridView.count(
+                  crossAxisCount: 2,
+                  mainAxisSpacing: 1,
+                  childAspectRatio: 7 / 11,
+                  crossAxisSpacing: 1,
+                  padding: const EdgeInsets.all(10),
+                  children: allMovies
+                      .map(
+                        (e) => GestureDetector(
+                          onTap: () {
+                            Navigator.of(context)
+                                .pushNamed("details_page", arguments: e);
+                          },
+                          child: Stack(
+                            children: [
+                              Container(
+                                height: 500,
+                                width: size.width,
+                                margin: const EdgeInsets.all(5),
+                                decoration: const BoxDecoration(
+                                  borderRadius: BorderRadius.all(
+                                    Radius.circular(10),
+                                  ),
+                                  color: Color.fromRGBO(7, 4, 32, 1),
+                                ),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  mainAxisAlignment: MainAxisAlignment.end,
+                                  children: [
+                                    Text(
+                                      e['Title'],
+                                      style: const TextStyle(
+                                          fontSize: 16, color: Colors.white),
+                                      maxLines: 1,
+                                    ),
+                                    Text(
+                                      e['Runtime'],
+                                      style: TextStyle(color: Colors.white),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              Container(
+                                height: 250,
+                                margin: const EdgeInsets.all(5),
+                                decoration: BoxDecoration(
+                                  borderRadius: const BorderRadius.all(
+                                    Radius.circular(10),
+                                  ),
+                                  image: DecorationImage(
+                                    image: NetworkImage(e['Poster']),
+                                    fit: BoxFit.cover,
+                                  ),
+                                ),
+                              ),
+                            ],
                           ),
                         ),
-                      ],
-                    ),
-                  )
-                  .toList()
+                      )
+                      .toList(),
+                ),
+              )
             ],
           ),
         ),

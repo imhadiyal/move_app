@@ -4,7 +4,7 @@ List<Map<String, dynamic>> allMovies = [
     "Year": "2009",
     "Rated": "PG-13",
     "Released": "18 Dec 2009",
-    "Runtime": "162 min",
+    "Runtime": "1h 19m",
     "Genre": "Action, Adventure, Fantasy",
     "Director": "James Cameron",
     "Writer": "James Cameron",
@@ -15,7 +15,7 @@ List<Map<String, dynamic>> allMovies = [
     "Country": "USA, UK",
     "Awards": "Won 3 Oscars. Another 80 wins & 121 nominations.",
     "Poster":
-        "https://rukminim2.flixcart.com/image/850/1000/xif0q/poster/u/p/k/small-avatar-2-movie-hd-printed-poster-empty-wall-decoration-12-original-imagq36sksbf3yrx.jpeg?q=20&crop=false",
+        "https://rukminim2.flixcart.com/image/850/1000/kt0enww0/poster/o/l/2/medium-amazing-avatar-hd-movie-matte-finish-poster-original-imag6ghshumrqjrs.jpeg?q=90&crop=false",
     "Metascore": "83",
     "imdbRating": "7.9",
     "imdbVotes": "890,617",
@@ -35,7 +35,7 @@ List<Map<String, dynamic>> allMovies = [
     "Year": "2007",
     "Rated": "PG-13",
     "Released": "14 Dec 2007",
-    "Runtime": "101 min",
+    "Runtime": "1h 39m",
     "Genre": "Drama, Horror, Sci-Fi",
     "Director": "Francis Lawrence",
     "Writer":
@@ -48,7 +48,7 @@ List<Map<String, dynamic>> allMovies = [
     "Country": "USA",
     "Awards": "9 wins & 21 nominations.",
     "Poster":
-        "http://ia.media-imdb.com/images/M/MV5BMTU4NzMyNDk1OV5BMl5BanBnXkFtZTcwOTEwMzU1MQ@@._V1_SX300.jpg",
+        "https://s29288.pcdn.co/wp-content/uploads/2020/08/i-am-legend-image-750.jpg",
     "Metascore": "65",
     "imdbRating": "7.2",
     "imdbVotes": "533,874",
@@ -67,7 +67,7 @@ List<Map<String, dynamic>> allMovies = [
     "Year": "2006",
     "Rated": "R",
     "Released": "09 Mar 2007",
-    "Runtime": "117 min",
+    "Runtime": "2h 19m",
     "Genre": "Action, Drama, Fantasy",
     "Director": "Zack Snyder",
     "Writer":
@@ -79,7 +79,7 @@ List<Map<String, dynamic>> allMovies = [
     "Country": "USA",
     "Awards": "16 wins & 42 nominations.",
     "Poster":
-        "http://ia.media-imdb.com/images/M/MV5BMjAzNTkzNjcxNl5BMl5BanBnXkFtZTYwNDA4NjE3._V1_SX300.jpg",
+        "https://rukminim2.flixcart.com/image/850/1000/knunf680/poster/d/r/b/medium-300-movie-movie-wall-poster-for-room-with-gloss-original-imag2g3a6xfxsnvz.jpeg?q=90&crop=false",
     "Metascore": "52",
     "imdbRating": "7.7",
     "imdbVotes": "611,046",
@@ -97,7 +97,7 @@ List<Map<String, dynamic>> allMovies = [
     "Year": "2012",
     "Rated": "PG-13",
     "Released": "04 May 2012",
-    "Runtime": "143 min",
+    "Runtime": "3h 6m",
     "Genre": "Action, Sci-Fi, Thriller",
     "Director": "Joss Whedon",
     "Writer": "Joss Whedon (screenplay), Zak Penn (story), Joss Whedon (story)",
@@ -108,7 +108,7 @@ List<Map<String, dynamic>> allMovies = [
     "Country": "USA",
     "Awards": "Nominated for 1 Oscar. Another 34 wins & 75 nominations.",
     "Poster":
-        "http://ia.media-imdb.com/images/M/MV5BMTk2NTI1MTU4N15BMl5BanBnXkFtZTcwODg0OTY0Nw@@._V1_SX300.jpg",
+        "https://i.pinimg.com/736x/a3/77/e7/a377e72a833f88a48089489ea5acddc0.jpg",
     "Metascore": "69",
     "imdbRating": "8.1",
     "imdbVotes": "1,003,301",
@@ -128,7 +128,7 @@ List<Map<String, dynamic>> allMovies = [
     "Year": "2013",
     "Rated": "R",
     "Released": "25 Dec 2013",
-    "Runtime": "180 min",
+    "Runtime": "1h 5m",
     "Genre": "Biography, Comedy, Crime",
     "Director": "Martin Scorsese",
     "Writer": "Terence Winter (screenplay), Jordan Belfort (book)",
@@ -140,7 +140,7 @@ List<Map<String, dynamic>> allMovies = [
     "Country": "USA",
     "Awards": "Nominated for 5 Oscars. Another 35 wins & 154 nominations.",
     "Poster":
-        "http://ia.media-imdb.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_SX300.jpg",
+        "https://www.vintagemovieposters.co.uk/wp-content/uploads/2019/12/IMG_2359.jpeg",
     "Metascore": "75",
     "imdbRating": "8.2",
     "imdbVotes": "786,985",
@@ -160,7 +160,7 @@ List<Map<String, dynamic>> allMovies = [
     "Year": "2014",
     "Rated": "PG-13",
     "Released": "07 Nov 2014",
-    "Runtime": "169 min",
+    "Runtime": "1h 49m",
     "Genre": "Adventure, Drama, Sci-Fi",
     "Director": "Christopher Nolan",
     "Writer": "Jonathan Nolan, Christopher Nolan",
@@ -171,7 +171,7 @@ List<Map<String, dynamic>> allMovies = [
     "Country": "USA, UK",
     "Awards": "Won 1 Oscar. Another 39 wins & 134 nominations.",
     "Poster":
-        "http://ia.media-imdb.com/images/M/MV5BMjIxNTU4MzY4MF5BMl5BanBnXkFtZTgwMzM4ODI3MjE@._V1_SX300.jpg",
+        "https://rukminim2.flixcart.com/image/850/1000/poster/q/r/v/posterskart-interstellar-movie-poster-pkis04-medium-original-imaebctvytcgcgcx.jpeg?q=90&crop=false",
     "Metascore": "74",
     "imdbRating": "8.6",
     "imdbVotes": "937,412",
@@ -191,7 +191,7 @@ List<Map<String, dynamic>> allMovies = [
     "Year": "2011–",
     "Rated": "TV-MA",
     "Released": "17 Apr 2011",
-    "Runtime": "56 min",
+    "Runtime": "1h 39m",
     "Genre": "Adventure, Drama, Fantasy",
     "Director": "N/A",
     "Writer": "David Benioff, D.B. Weiss",
@@ -202,7 +202,7 @@ List<Map<String, dynamic>> allMovies = [
     "Country": "USA, UK",
     "Awards": "Won 1 Golden Globe. Another 185 wins & 334 nominations.",
     "Poster":
-        "http://ia.media-imdb.com/images/M/MV5BMjM5OTQ1MTY5Nl5BMl5BanBnXkFtZTgwMjM3NzMxODE@._V1_SX300.jpg",
+        "https://rukminim2.flixcart.com/image/850/1000/jddesnk0/poster/v/w/h/medium-game-of-thrones-poster-game-of-thrones-poster-game-of-original-imaf2az4qbegpfez.jpeg?q=90&crop=false",
     "Metascore": "N/A",
     "imdbRating": "9.5",
     "imdbVotes": "1,046,830",
@@ -223,7 +223,7 @@ List<Map<String, dynamic>> allMovies = [
     "Year": "2013–",
     "Rated": "TV-14",
     "Released": "03 Mar 2013",
-    "Runtime": "44 min",
+    "Runtime": "1h 9m",
     "Genre": "Action, Drama, History",
     "Director": "N/A",
     "Writer": "Michael Hirst",
@@ -236,7 +236,7 @@ List<Map<String, dynamic>> allMovies = [
     "Awards":
         "Nominated for 7 Primetime Emmys. Another 17 wins & 49 nominations.",
     "Poster":
-        "http://ia.media-imdb.com/images/M/MV5BOTEzNzI3MDc0N15BMl5BanBnXkFtZTgwMzk1MzA5NzE@._V1_SX300.jpg",
+        "https://cdn.europosters.eu/image/750/posters/vikings-blood-lanscape-i24452.jpg",
     "Metascore": "N/A",
     "imdbRating": "8.6",
     "imdbVotes": "198,041",
@@ -257,7 +257,7 @@ List<Map<String, dynamic>> allMovies = [
     "Year": "2014–",
     "Rated": "TV-14",
     "Released": "01 Aug 2014",
-    "Runtime": "42 min",
+    "Runtime": "1h 10m",
     "Genre": "Action, Crime, Drama",
     "Director": "N/A",
     "Writer": "Bruno Heller",
@@ -269,7 +269,7 @@ List<Map<String, dynamic>> allMovies = [
     "Awards":
         "Nominated for 4 Primetime Emmys. Another 3 wins & 22 nominations.",
     "Poster":
-        "http://ia.media-imdb.com/images/M/MV5BMTY2MjMwNDE4OV5BMl5BanBnXkFtZTgwNjI1NjU0OTE@._V1_SX300.jpg",
+        "https://wallpapers.com/images/featured/4k-gotham-q7x20isz3v5gskd0.jpg",
     "Metascore": "N/A",
     "imdbRating": "8.0",
     "imdbVotes": "133,375",
@@ -290,7 +290,7 @@ List<Map<String, dynamic>> allMovies = [
     "Year": "2014–",
     "Rated": "TV-MA",
     "Released": "N/A",
-    "Runtime": "50 min",
+    "Runtime": "4h 19m",
     "Genre": "Crime, Drama",
     "Director": "N/A",
     "Writer": "Courtney Kemp Agboh",
@@ -301,7 +301,7 @@ List<Map<String, dynamic>> allMovies = [
     "Country": "USA",
     "Awards": "1 win & 6 nominations.",
     "Poster":
-        "http://ia.media-imdb.com/images/M/MV5BOTA4NTkzMjUzOF5BMl5BanBnXkFtZTgwNzg5ODkxOTE@._V1_SX300.jpg",
+        "https://snagfilms-a.akamaihd.net/7fa0ea9a-9799-4417-99f5-cbb5343c551d/images/df/60/89beb75a4d3da46e7f742b252666/1528874017136_powerlandscape_16x9Images.png",
     "Metascore": "N/A",
     "imdbRating": "8.0",
     "imdbVotes": "14,770",
@@ -322,7 +322,7 @@ List<Map<String, dynamic>> allMovies = [
     "Year": "2015–",
     "Rated": "TV-MA",
     "Released": "28 Aug 2015",
-    "Runtime": "49 min",
+    "Runtime": "1h 39m",
     "Genre": "Biography, Crime, Drama",
     "Director": "N/A",
     "Writer": "Carlo Bernard, Chris Brancato, Doug Miro, Paul Eckstein",
@@ -333,7 +333,7 @@ List<Map<String, dynamic>> allMovies = [
     "Country": "USA",
     "Awards": "Nominated for 2 Golden Globes. Another 4 nominations.",
     "Poster":
-        "http://ia.media-imdb.com/images/M/MV5BMTU0ODQ4NDg2OF5BMl5BanBnXkFtZTgwNzczNTE4OTE@._V1_SX300.jpg",
+        "https://i.pinimg.com/736x/b6/e9/1d/b6e91dbd199ce9d028cdb693c019c9bb.jpg",
     "Metascore": "N/A",
     "imdbRating": "8.9",
     "imdbVotes": "118,680",
@@ -354,7 +354,7 @@ List<Map<String, dynamic>> allMovies = [
     "Year": "2008–2013",
     "Rated": "TV-14",
     "Released": "20 Jan 2008",
-    "Runtime": "49 min",
+    "Runtime": "5h 36m",
     "Genre": "Crime, Drama, Thriller",
     "Director": "N/A",
     "Writer": "Vince Gilligan",
@@ -365,7 +365,7 @@ List<Map<String, dynamic>> allMovies = [
     "Country": "USA",
     "Awards": "Won 2 Golden Globes. Another 132 wins & 218 nominations.",
     "Poster":
-        "http://ia.media-imdb.com/images/M/MV5BMTQ0ODYzODc0OV5BMl5BanBnXkFtZTgwMDk3OTcyMDE@._V1_SX300.jpg",
+        "https://rukminim2.flixcart.com/image/850/1000/kdga1zk0/poster/2/p/i/large-breakingbad04-breaking-bad-poster-breaking-bad-series-original-imafuc2fvfjyackz.jpeg?q=20&crop=false",
     "Metascore": "N/A",
     "imdbRating": "9.5",
     "imdbVotes": "889,883",
@@ -387,7 +387,7 @@ List<Map<String, dynamic>> allMovies = [
     "Year": "2016",
     "Rated": "N/A",
     "Released": "04 Nov 2016",
-    "Runtime": "N/A",
+    "Runtime": "1h 29m",
     "Genre": "Action, Adventure, Fantasy",
     "Director": "Scott Derrickson",
     "Writer":
@@ -400,7 +400,7 @@ List<Map<String, dynamic>> allMovies = [
     "Country": "USA",
     "Awards": "N/A",
     "Poster":
-        "http://ia.media-imdb.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_SX300.jpg",
+        "https://michaelfoustdotcom.files.wordpress.com/2016/12/doctor-strange-3.jpg?w=584&h=441",
     "Metascore": "N/A",
     "imdbRating": "N/A",
     "imdbVotes": "N/A",
@@ -419,7 +419,7 @@ List<Map<String, dynamic>> allMovies = [
     "Year": "2016",
     "Rated": "N/A",
     "Released": "16 Dec 2016",
-    "Runtime": "N/A",
+    "Runtime": "1h 10m",
     "Genre": "Action, Adventure, Sci-Fi",
     "Director": "Gareth Edwards",
     "Writer":
@@ -431,7 +431,7 @@ List<Map<String, dynamic>> allMovies = [
     "Country": "USA",
     "Awards": "1 nomination.",
     "Poster":
-        "https://images-na.ssl-images-amazon.com/images/M/MV5BMjQyMzI2OTA3OF5BMl5BanBnXkFtZTgwNDg5NjQ0OTE@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
+        "https://www.vintagemovieposters.co.uk/wp-content/uploads/2017/04/IMG_4881.jpg",
     "Metascore": "N/A",
     "imdbRating": "N/A",
     "imdbVotes": "N/A",
@@ -452,7 +452,7 @@ List<Map<String, dynamic>> allMovies = [
     "Year": "2016",
     "Rated": "N/A",
     "Released": "21 Dec 2016",
-    "Runtime": "N/A",
+    "Runtime": "1h 20m",
     "Genre": "Action, Adventure, Fantasy",
     "Director": "Justin Kurzel",
     "Writer":
@@ -465,7 +465,7 @@ List<Map<String, dynamic>> allMovies = [
     "Country": "UK, France, USA, Hong Kong",
     "Awards": "N/A",
     "Poster":
-        "http://ia.media-imdb.com/images/M/MV5BMTU2MTQwMjU1OF5BMl5BanBnXkFtZTgwMDA5NjU5ODE@._V1_SX300.jpg",
+        "https://m.media-amazon.com/images/I/61hB5nPZSKL._AC_UF894,1000_QL80_.jpg",
     "Metascore": "N/A",
     "imdbRating": "N/A",
     "imdbVotes": "N/A",
@@ -485,7 +485,7 @@ List<Map<String, dynamic>> allMovies = [
     "Year": "2016–",
     "Rated": "TV-MA",
     "Released": "30 Sep 2016",
-    "Runtime": "55 min",
+    "Runtime": "1h 18m",
     "Genre": "Action, Crime, Drama",
     "Director": "N/A",
     "Writer": "Cheo Hodari Coker",
@@ -496,7 +496,7 @@ List<Map<String, dynamic>> allMovies = [
     "Country": "USA",
     "Awards": "N/A",
     "Poster":
-        "http://ia.media-imdb.com/images/M/MV5BMTcyMzc1MjI5MF5BMl5BanBnXkFtZTgwMzE4ODY2OTE@._V1_SX300.jpg",
+        "https://rukminim2.flixcart.com/image/850/1000/xif0q/poster/g/q/w/large-t0188-luke-cage-poster-18-x-12-inch-300-gsm-midnight-works-original-imaggm79ectspepc.jpeg?q=90&crop=false",
     "Metascore": "N/A",
     "imdbRating": "N/A",
     "imdbVotes": "N/A",
@@ -515,11 +515,17 @@ List<Map<String, dynamic>> allMovies = [
 ];
 List<String> poster = [
   "https://m.media-amazon.com/images/I/91zTlD7AY1L.jpg",
-  "https://images-cdn.ubuy.co.in/634d0a48023cd2292277f3df-avengers-endgame-marvel-studios-framed.jpg",
+  "https://rukminim2.flixcart.com/image/850/1000/jf8khow0/poster/a/u/h/small-hollywood-movie-poster-blade-runner-2049-ridley-scott-original-imaf3qvx88xenydd.jpeg?q=90&crop=false",
   "https://i.etsystatic.com/13325275/r/il/9cec30/3393446498/il_fullxfull.3393446498_ezqg.jpg",
-  "https://images-cdn.ubuy.co.in/63b7b107d4159432fb5ec817-avengers-infinity-war-movie-poster.jpg",
-  "https://bollywoodmovieposters.com/wp-content/uploads/2021/02/dangal-movie-aamir-khan-film-poster.jpg",
+  "https://rukminim2.flixcart.com/image/850/1000/xif0q/poster/c/b/d/small-pathan-shah-rukh-khan-bollywood-hindi-movie-poster-small-original-imagmt3dgxh7avyg.jpeg?q=20&crop=false",
+  "https://webneel.com/daily/sites/default/files/images/daily/09-2019/2-movie-poster-design-aladdin-disney-glossy-composite.jpg",
   "https://marketplace.canva.com/EAFTl0ixW_k/1/0/1131w/canva-black-white-minimal-alone-movie-poster-YZ-0GJ13Nc8.jpg",
 ];
-List allCategories =
-    allMovies.map((e) => e['Genre'].toString().split(',')[0]).toSet().toList();
+List<String> comingSoon = [
+  "https://m.media-amazon.com/images/I/61hB5nPZSKL._AC_UF894,1000_QL80_.jpg",
+  "https://www.vintagemovieposters.co.uk/wp-content/uploads/2017/04/IMG_4881.jpg",
+  "https://michaelfoustdotcom.files.wordpress.com/2016/12/doctor-strange-3.jpg?w=584&h=441",
+  "https://rukminim2.flixcart.com/image/850/1000/xif0q/poster/g/q/w/large-t0188-luke-cage-poster-18-x-12-inch-300-gsm-midnight-works-original-imaggm79ectspepc.jpeg?q=90&crop=false",
+];
+
+List<Map<String, dynamic>> favList = [];
