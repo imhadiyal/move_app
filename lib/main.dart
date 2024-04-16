@@ -1,6 +1,4 @@
-import 'package:flutter/material.dart';
-
-import 'app.dart';
+import 'package:move_app/headers.dart';
 
 void main() {
   runApp(

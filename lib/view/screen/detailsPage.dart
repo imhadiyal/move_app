@@ -1,10 +1,4 @@
-import 'package:carousel_slider/carousel_slider.dart';
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
-
-import '../../utils/movie_utils.dart';
-
-// import '../../utils/routes.dart';
+import 'package:move_app/headers.dart';
 
 class DetailPage extends StatefulWidget {
   const DetailPage({super.key});

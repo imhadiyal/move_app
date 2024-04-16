@@ -1,8 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:move_app/utils/route_utils.dart';
-import 'package:move_app/view/screen/cartPage.dart';
-import 'package:move_app/view/screen/detailsPage.dart';
-import 'package:move_app/view/screen/homePage.dart';
+import 'package:move_app/headers.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});

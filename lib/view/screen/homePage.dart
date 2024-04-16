@@ -1,9 +1,6 @@
-import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-import 'package:move_app/utils/movie_utils.dart';
-import 'package:move_app/utils/route_utils.dart';
+import 'package:move_app/headers.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -79,12 +76,27 @@ class _HomePageState extends State<HomePage> {
                   viewportFraction: 0.8,
                 ),
               ),
-              Text(
-                "ComingSoon",
-                style: TextStyle(
-                    fontSize: 20,
-                    color: Colors.white,
-                    fontWeight: FontWeight.bold),
+              const Row(
+                children: [
+                  Text(
+                    "ComingSoon",
+                    style: TextStyle(
+                        fontSize: 20,
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold),
+                  ),
+                  Spacer(),
+                  Text(
+                    "View All",
+                    style: TextStyle(
+                        fontSize: 16,
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold),
+                  ),
+                ],
+              ),
+              const SizedBox(
+                height: 10,
               ),
               SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
@@ -92,11 +104,14 @@ class _HomePageState extends State<HomePage> {
                   children: [
                     ...comingSoon
                         .map((e) => Container(
-                              margin: EdgeInsets.all(5),
+                              padding: const EdgeInsets.all(10),
+                              margin:
+                                  const EdgeInsets.only(bottom: 15, right: 10),
                               height: size.height * 0.15,
                               width: size.width * 0.3,
                               decoration: BoxDecoration(
-                                borderRadius: BorderRadius.all(
+                                border: Border.all(color: Colors.white),
+                                borderRadius: const BorderRadius.all(
                                   Radius.circular(10),
                                 ),
                                 color: Colors.white,
@@ -110,7 +125,7 @@ class _HomePageState extends State<HomePage> {
                   ],
                 ),
               ),
-              Container(
+              SizedBox(
                 height: size.height,
                 width: size.width,
                 child: GridView.count(

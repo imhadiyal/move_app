@@ -1,0 +1,12 @@
+export 'package:flutter/material.dart';
+export 'package:flutter/widgets.dart';
+export 'package:move_app/utils/movie_utils.dart';
+export 'package:carousel_slider/carousel_slider.dart';
+export 'package:flutter/widgets.dart';
+export 'package:move_app/utils/movie_utils.dart';
+export 'package:move_app/utils/route_utils.dart';
+export 'app.dart';
+export 'package:move_app/utils/route_utils.dart';
+export 'package:move_app/view/screen/cartPage.dart';
+export 'package:move_app/view/screen/detailsPage.dart';
+export 'package:move_app/view/screen/homePage.dart';

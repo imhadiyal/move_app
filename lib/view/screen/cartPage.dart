@@ -1,7 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-
-import '../../utils/movie_utils.dart';
+import 'package:move_app/headers.dart';
 
 class ShowBook extends StatefulWidget {
   const ShowBook({super.key});
@@ -19,7 +16,6 @@ class _ShowBookState extends State<ShowBook> {
         backgroundColor: const Color.fromRGBO(7, 4, 32, 1),
         foregroundColor: Colors.white,
         title: const Text('Booked Show'),
-        centerTitle: true,
       ),
       backgroundColor: const Color.fromRGBO(7, 4, 32, 1),
       body: GestureDetector(
